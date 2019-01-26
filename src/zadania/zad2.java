@@ -11,7 +11,7 @@ public class zad2
         Scanner wejscie = new Scanner(System.in);
         System.out.println("UŻYTKOWNIKU. podaj mi długość swojej talbicy  ( ͡° ͜ʖ ͡° ) ");
         int podana = wejscie.nextInt();
-        int tablica[] = new int[podana];
+        int[] tablica = new int[podana];
         for(int i = 0; i < tablica.length; i++)
         {
             tablica[i] = (int) (Math.random()*100);

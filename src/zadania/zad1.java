@@ -5,7 +5,7 @@ public class zad1
 {
     public static void main(String[] args)
     {
-        int tablica[] = new int[5];
+        int[] tablica = new int[5];
         tablica[0] = 5;
         tablica[1] = 4;
         tablica[2] = 5;
